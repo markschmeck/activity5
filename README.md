@@ -9,4 +9,4 @@
 
 ## Submission
 
-In the [activity4.md](activity4.md) file, you will find a simple state space. Please use this state space and run through your assigned algorithm to find the path from start to goal.
+In the [activity5.md](activity5.md) file, you will find a simple state space. Please use this state space and run through your assigned algorithm to find the path from start to goal.
