@@ -33,3 +33,69 @@ TODO: Run the DFS, BFS algorithms. Indicate the path your algorithm generated fr
             
             
 **Path:** ... => ... => etc.
+
+### Sample Solution
+
+#### DFS
+
+|Expand Node 	| Fringe |
+| ------------|------- |
+|A 	|B,I|
+|B 	| I |
+|I  |	C,G|
+|C 	| G,D,E,F|
+|G  |	D,E, F,H|
+| D      |       E,F,H|
+| F       |      G,H|
+| E     |        H|
+
+Path: ... => ... => etc. A -> i -> G -> H A-> I -> C -> E -> H
+
+
+#### BFS
+
+Expand Node |	Fringe
+------------|------- 
+- |	A
+A |	B,I
+B |	I
+I |	G,C
+G | 	C
+C |	F, H
+F |	H
+H |	End
+
+Path: A => I => G => H.
+
+
+
+#### Iterative Deepening Search
+
+Depth Limit 1
+
+Expand Node  |	Fringe
+------------|------- 
+A  |	B I
+B  |	N/A
+I  |	G C
+
+Depth Limit 2
+
+Expand Node 	Fringe
+------------|------- 
+A |	B I
+B |	N/A
+I |	G C
+G| 	F H
+
+Depth Limit 3
+Expand Node |	Fringe
+------------|------- 
+A 	|B I
+B 	|N/A
+I 	|G C
+G 	|F H
+F 	|N/A
+H 	|SOLUTION
+
+Path: A => I => G => H
