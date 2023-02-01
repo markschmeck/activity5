@@ -81,9 +81,9 @@ I  |	G C
 
 Depth Limit 2
 
-Expand Node 	Fringe
+Expand Node |	Fringe
 ------------|------- 
-A |	B I
+A |	B 
 B |	N/A
 I |	G C
 G| 	F H
